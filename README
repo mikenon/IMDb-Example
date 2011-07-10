@@ -1,0 +1,6 @@
+Just a quick example. 
+Enter a movie title, with or without year of release, and press search.
+The movie's info is shown, clicking the image brings up a fullsize view of it.
+
+If your interested in showing me a better way of doing things, that'd be great.
+Just send a pull request.
