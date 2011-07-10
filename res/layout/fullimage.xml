@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="wrap_content" android:layout_height="wrap_content">
+ <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_alignParentTop="true">
+     <LinearLayout android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/linearLayout1" android:layout_width="fill_parent">
+         <Button android:text="Close" android:id="@+id/btnClose" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+     </LinearLayout>
+     <ScrollView android:layout_width="wrap_content" android:id="@+id/posterScroll" android:layout_gravity="center_vertical|center_horizontal" android:layout_height="wrap_content">
+         <ImageView android:layout_width="wrap_content" android:id="@+id/posterImage" android:layout_height="wrap_content" android:adjustViewBounds="true"></ImageView>
+     </ScrollView>
+ </LinearLayout>
+ 
+</RelativeLayout>

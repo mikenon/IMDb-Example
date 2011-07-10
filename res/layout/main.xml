@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="match_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_text"></TextView>
+            <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_year"></TextView>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow2" android:layout_height="wrap_content">
+            <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/txtTitle" android:hint="Required"><requestFocus></requestFocus></EditText>
+            <EditText android:id="@+id/txtYear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Optional"></EditText>
+            <Button android:layout_width="wrap_content" android:id="@+id/btnSearch" android:layout_height="wrap_content" android:text="Search"></Button>
+        </TableRow>
+    </TableLayout>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent">
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_vertical|center_horizontal">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center_horizontal" android:src="@drawable/troll"></ImageView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txtAbout" android:textSize="14px"></TextView>
+</LinearLayout>
+</LinearLayout>
